@@ -1,0 +1,903 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B80EBEA852E66DF89849641 /* libPods-QZShortVideoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E47EC8A0B04859A97758DAB /* libPods-QZShortVideoTests.a */; };
+		4A446683234DD02E00EF31DF /* SDAVAssetExportSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446682234DD02E00EF31DF /* SDAVAssetExportSession.m */; };
+		4A446686234ECA9D00EF31DF /* OriginalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A446685234ECA9D00EF31DF /* OriginalViewController.m */; };
+		4A741C9122C21B3D00AED5A0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741C9022C21B3D00AED5A0 /* AppDelegate.m */; };
+		4A741C9422C21B3D00AED5A0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741C9322C21B3D00AED5A0 /* ViewController.m */; };
+		4A741C9722C21B3D00AED5A0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A741C9522C21B3D00AED5A0 /* Main.storyboard */; };
+		4A741C9922C21B3E00AED5A0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A741C9822C21B3E00AED5A0 /* Assets.xcassets */; };
+		4A741C9C22C21B3E00AED5A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A741C9A22C21B3E00AED5A0 /* LaunchScreen.storyboard */; };
+		4A741C9F22C21B3E00AED5A0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741C9E22C21B3E00AED5A0 /* main.m */; };
+		4A741CA922C21B3E00AED5A0 /* QZShortVideoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CA822C21B3E00AED5A0 /* QZShortVideoTests.m */; };
+		4A741CB422C21B3E00AED5A0 /* QZShortVideoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CB322C21B3E00AED5A0 /* QZShortVideoUITests.m */; };
+		4A741CD222C21B4C00AED5A0 /* RCSimpleHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CC322C21B4C00AED5A0 /* RCSimpleHUD.m */; };
+		4A741CD322C21B4C00AED5A0 /* RCMediaFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CC422C21B4C00AED5A0 /* RCMediaFocusView.m */; };
+		4A741CD422C21B4C00AED5A0 /* RCMediaCaptureView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CC622C21B4C00AED5A0 /* RCMediaCaptureView.m */; };
+		4A741CD522C21B4C00AED5A0 /* RCMediaViewController+Handle.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CCC22C21B4C00AED5A0 /* RCMediaViewController+Handle.m */; };
+		4A741CD622C21B4C00AED5A0 /* RCMediaConstant.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CCE22C21B4C00AED5A0 /* RCMediaConstant.m */; };
+		4A741CD722C21B4C00AED5A0 /* RCMediaPreview.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CCF22C21B4C00AED5A0 /* RCMediaPreview.m */; };
+		4A741CD822C21B4C00AED5A0 /* RCMediaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CD022C21B4C00AED5A0 /* RCMediaViewController.m */; };
+		4A741CD922C21B4C00AED5A0 /* RCMediaToolbar.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CD122C21B4C00AED5A0 /* RCMediaToolbar.m */; };
+		4A741CDC22C3544500AED5A0 /* TZCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A741CDB22C3544500AED5A0 /* TZCameraViewController.m */; };
+		4A741CDE22C5A31100AED5A0 /* Resource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A741CDD22C5A31100AED5A0 /* Resource.bundle */; };
+		4A741CFC22C5A66800AED5A0 /* Images.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4A741CFB22C5A66800AED5A0 /* Images.bundle */; };
+		980C2081F57F23AF7F4696AD /* libPods-QZShortVideo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 29A6FFECE626E82C40362EBD /* libPods-QZShortVideo.a */; };
+		F059AAEE894174A68D54907A /* libPods-QZShortVideoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 126026C003D90338EB4DA094 /* libPods-QZShortVideoUITests.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4A741CA522C21B3E00AED5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A741C8422C21B3D00AED5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A741C8B22C21B3D00AED5A0;
+			remoteInfo = QZShortVideo;
+		};
+		4A741CB022C21B3E00AED5A0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A741C8422C21B3D00AED5A0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A741C8B22C21B3D00AED5A0;
+			remoteInfo = QZShortVideo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		126026C003D90338EB4DA094 /* libPods-QZShortVideoUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QZShortVideoUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1FC6580965487C989FD6B797 /* Pods-QZShortVideoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZShortVideoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QZShortVideoTests/Pods-QZShortVideoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		29A6FFECE626E82C40362EBD /* libPods-QZShortVideo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QZShortVideo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		37B291C7E73E7EE5A8F01561 /* Pods-QZShortVideoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZShortVideoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QZShortVideoUITests/Pods-QZShortVideoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		41B35D9FD71A0A8F31A3446E /* Pods-QZShortVideo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZShortVideo.release.xcconfig"; path = "Pods/Target Support Files/Pods-QZShortVideo/Pods-QZShortVideo.release.xcconfig"; sourceTree = "<group>"; };
+		438DD21A2B58C16D3FC92D78 /* Pods-QZShortVideo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZShortVideo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-QZShortVideo/Pods-QZShortVideo.debug.xcconfig"; sourceTree = "<group>"; };
+		4A446681234DD02E00EF31DF /* SDAVAssetExportSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDAVAssetExportSession.h; sourceTree = "<group>"; };
+		4A446682234DD02E00EF31DF /* SDAVAssetExportSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDAVAssetExportSession.m; sourceTree = "<group>"; };
+		4A446684234ECA9D00EF31DF /* OriginalViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OriginalViewController.h; sourceTree = "<group>"; };
+		4A446685234ECA9D00EF31DF /* OriginalViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OriginalViewController.m; sourceTree = "<group>"; };
+		4A741C8C22C21B3D00AED5A0 /* LZYShortVideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LZYShortVideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A741C8F22C21B3D00AED5A0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4A741C9022C21B3D00AED5A0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4A741C9222C21B3D00AED5A0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4A741C9322C21B3D00AED5A0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4A741C9622C21B3D00AED5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4A741C9822C21B3E00AED5A0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4A741C9B22C21B3E00AED5A0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4A741C9D22C21B3E00AED5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A741C9E22C21B3E00AED5A0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4A741CA422C21B3E00AED5A0 /* QZShortVideoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZShortVideoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A741CA822C21B3E00AED5A0 /* QZShortVideoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZShortVideoTests.m; sourceTree = "<group>"; };
+		4A741CAA22C21B3E00AED5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A741CAF22C21B3E00AED5A0 /* QZShortVideoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QZShortVideoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A741CB322C21B3E00AED5A0 /* QZShortVideoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QZShortVideoUITests.m; sourceTree = "<group>"; };
+		4A741CB522C21B3E00AED5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A741CC222C21B4C00AED5A0 /* RCMediaViewController+Handle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "RCMediaViewController+Handle.h"; sourceTree = "<group>"; };
+		4A741CC322C21B4C00AED5A0 /* RCSimpleHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCSimpleHUD.m; sourceTree = "<group>"; };
+		4A741CC422C21B4C00AED5A0 /* RCMediaFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMediaFocusView.m; sourceTree = "<group>"; };
+		4A741CC522C21B4C00AED5A0 /* RCMediaConstant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMediaConstant.h; sourceTree = "<group>"; };
+		4A741CC622C21B4C00AED5A0 /* RCMediaCaptureView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMediaCaptureView.m; sourceTree = "<group>"; };
+		4A741CC722C21B4C00AED5A0 /* RCMediaToolbar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMediaToolbar.h; sourceTree = "<group>"; };
+		4A741CC822C21B4C00AED5A0 /* RCMediaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMediaViewController.h; sourceTree = "<group>"; };
+		4A741CC922C21B4C00AED5A0 /* RCMediaPreview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMediaPreview.h; sourceTree = "<group>"; };
+		4A741CCA22C21B4C00AED5A0 /* RCMediaFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMediaFocusView.h; sourceTree = "<group>"; };
+		4A741CCB22C21B4C00AED5A0 /* RCSimpleHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCSimpleHUD.h; sourceTree = "<group>"; };
+		4A741CCC22C21B4C00AED5A0 /* RCMediaViewController+Handle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "RCMediaViewController+Handle.m"; sourceTree = "<group>"; };
+		4A741CCD22C21B4C00AED5A0 /* RCMediaCaptureView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RCMediaCaptureView.h; sourceTree = "<group>"; };
+		4A741CCE22C21B4C00AED5A0 /* RCMediaConstant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMediaConstant.m; sourceTree = "<group>"; };
+		4A741CCF22C21B4C00AED5A0 /* RCMediaPreview.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMediaPreview.m; sourceTree = "<group>"; };
+		4A741CD022C21B4C00AED5A0 /* RCMediaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMediaViewController.m; sourceTree = "<group>"; };
+		4A741CD122C21B4C00AED5A0 /* RCMediaToolbar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RCMediaToolbar.m; sourceTree = "<group>"; };
+		4A741CDA22C3544500AED5A0 /* TZCameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TZCameraViewController.h; sourceTree = "<group>"; };
+		4A741CDB22C3544500AED5A0 /* TZCameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TZCameraViewController.m; sourceTree = "<group>"; };
+		4A741CDD22C5A31100AED5A0 /* Resource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Resource.bundle; sourceTree = "<group>"; };
+		4A741CE322C5A3CA00AED5A0 /* Images.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Images.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A741CE522C5A3CA00AED5A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A741CFB22C5A66800AED5A0 /* Images.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = Images.bundle; sourceTree = "<group>"; };
+		4E47EC8A0B04859A97758DAB /* libPods-QZShortVideoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-QZShortVideoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		88FBF11434A6CF0E74B3CC8E /* Pods-QZShortVideoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZShortVideoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QZShortVideoTests/Pods-QZShortVideoTests.release.xcconfig"; sourceTree = "<group>"; };
+		92C4A4FFDB431989290C1042 /* Pods-QZShortVideoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QZShortVideoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-QZShortVideoUITests/Pods-QZShortVideoUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4A741C8922C21B3D00AED5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				980C2081F57F23AF7F4696AD /* libPods-QZShortVideo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CA122C21B3E00AED5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B80EBEA852E66DF89849641 /* libPods-QZShortVideoTests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CAC22C21B3E00AED5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F059AAEE894174A68D54907A /* libPods-QZShortVideoUITests.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CE022C5A3CA00AED5A0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3E0F39E18A2D1D27A552FBA1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				29A6FFECE626E82C40362EBD /* libPods-QZShortVideo.a */,
+				4E47EC8A0B04859A97758DAB /* libPods-QZShortVideoTests.a */,
+				126026C003D90338EB4DA094 /* libPods-QZShortVideoUITests.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4A741C8322C21B3D00AED5A0 = {
+			isa = PBXGroup;
+			children = (
+				4A741C8E22C21B3D00AED5A0 /* QZShortVideo */,
+				4A741CA722C21B3E00AED5A0 /* QZShortVideoTests */,
+				4A741CB222C21B3E00AED5A0 /* QZShortVideoUITests */,
+				4A741CE422C5A3CA00AED5A0 /* Images */,
+				4A741C8D22C21B3D00AED5A0 /* Products */,
+				AAA572B76F408C56992C1D21 /* Pods */,
+				3E0F39E18A2D1D27A552FBA1 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4A741C8D22C21B3D00AED5A0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4A741C8C22C21B3D00AED5A0 /* LZYShortVideo.app */,
+				4A741CA422C21B3E00AED5A0 /* QZShortVideoTests.xctest */,
+				4A741CAF22C21B3E00AED5A0 /* QZShortVideoUITests.xctest */,
+				4A741CE322C5A3CA00AED5A0 /* Images.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4A741C8E22C21B3D00AED5A0 /* QZShortVideo */ = {
+			isa = PBXGroup;
+			children = (
+				4A446681234DD02E00EF31DF /* SDAVAssetExportSession.h */,
+				4A446682234DD02E00EF31DF /* SDAVAssetExportSession.m */,
+				4A741CC122C21B4C00AED5A0 /* RCMediator */,
+				4A741C8F22C21B3D00AED5A0 /* AppDelegate.h */,
+				4A741C9022C21B3D00AED5A0 /* AppDelegate.m */,
+				4A741C9222C21B3D00AED5A0 /* ViewController.h */,
+				4A741C9322C21B3D00AED5A0 /* ViewController.m */,
+				4A741CDA22C3544500AED5A0 /* TZCameraViewController.h */,
+				4A741CDB22C3544500AED5A0 /* TZCameraViewController.m */,
+				4A446684234ECA9D00EF31DF /* OriginalViewController.h */,
+				4A446685234ECA9D00EF31DF /* OriginalViewController.m */,
+				4A741C9522C21B3D00AED5A0 /* Main.storyboard */,
+				4A741C9822C21B3E00AED5A0 /* Assets.xcassets */,
+				4A741C9A22C21B3E00AED5A0 /* LaunchScreen.storyboard */,
+				4A741C9D22C21B3E00AED5A0 /* Info.plist */,
+				4A741C9E22C21B3E00AED5A0 /* main.m */,
+				4A741CFB22C5A66800AED5A0 /* Images.bundle */,
+				4A741CDD22C5A31100AED5A0 /* Resource.bundle */,
+			);
+			path = QZShortVideo;
+			sourceTree = "<group>";
+		};
+		4A741CA722C21B3E00AED5A0 /* QZShortVideoTests */ = {
+			isa = PBXGroup;
+			children = (
+				4A741CA822C21B3E00AED5A0 /* QZShortVideoTests.m */,
+				4A741CAA22C21B3E00AED5A0 /* Info.plist */,
+			);
+			path = QZShortVideoTests;
+			sourceTree = "<group>";
+		};
+		4A741CB222C21B3E00AED5A0 /* QZShortVideoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4A741CB322C21B3E00AED5A0 /* QZShortVideoUITests.m */,
+				4A741CB522C21B3E00AED5A0 /* Info.plist */,
+			);
+			path = QZShortVideoUITests;
+			sourceTree = "<group>";
+		};
+		4A741CC122C21B4C00AED5A0 /* RCMediator */ = {
+			isa = PBXGroup;
+			children = (
+				4A741CCD22C21B4C00AED5A0 /* RCMediaCaptureView.h */,
+				4A741CC622C21B4C00AED5A0 /* RCMediaCaptureView.m */,
+				4A741CC522C21B4C00AED5A0 /* RCMediaConstant.h */,
+				4A741CCE22C21B4C00AED5A0 /* RCMediaConstant.m */,
+				4A741CCA22C21B4C00AED5A0 /* RCMediaFocusView.h */,
+				4A741CC422C21B4C00AED5A0 /* RCMediaFocusView.m */,
+				4A741CC922C21B4C00AED5A0 /* RCMediaPreview.h */,
+				4A741CCF22C21B4C00AED5A0 /* RCMediaPreview.m */,
+				4A741CC722C21B4C00AED5A0 /* RCMediaToolbar.h */,
+				4A741CD122C21B4C00AED5A0 /* RCMediaToolbar.m */,
+				4A741CC822C21B4C00AED5A0 /* RCMediaViewController.h */,
+				4A741CD022C21B4C00AED5A0 /* RCMediaViewController.m */,
+				4A741CC222C21B4C00AED5A0 /* RCMediaViewController+Handle.h */,
+				4A741CCC22C21B4C00AED5A0 /* RCMediaViewController+Handle.m */,
+				4A741CCB22C21B4C00AED5A0 /* RCSimpleHUD.h */,
+				4A741CC322C21B4C00AED5A0 /* RCSimpleHUD.m */,
+			);
+			path = RCMediator;
+			sourceTree = "<group>";
+		};
+		4A741CE422C5A3CA00AED5A0 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4A741CE522C5A3CA00AED5A0 /* Info.plist */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		AAA572B76F408C56992C1D21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				438DD21A2B58C16D3FC92D78 /* Pods-QZShortVideo.debug.xcconfig */,
+				41B35D9FD71A0A8F31A3446E /* Pods-QZShortVideo.release.xcconfig */,
+				1FC6580965487C989FD6B797 /* Pods-QZShortVideoTests.debug.xcconfig */,
+				88FBF11434A6CF0E74B3CC8E /* Pods-QZShortVideoTests.release.xcconfig */,
+				37B291C7E73E7EE5A8F01561 /* Pods-QZShortVideoUITests.debug.xcconfig */,
+				92C4A4FFDB431989290C1042 /* Pods-QZShortVideoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4A741C8B22C21B3D00AED5A0 /* QZShortVideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A741CB822C21B3E00AED5A0 /* Build configuration list for PBXNativeTarget "QZShortVideo" */;
+			buildPhases = (
+				FEDCBB52D4607DFCD6182E3E /* [CP] Check Pods Manifest.lock */,
+				4A741C8822C21B3D00AED5A0 /* Sources */,
+				4A741C8922C21B3D00AED5A0 /* Frameworks */,
+				4A741C8A22C21B3D00AED5A0 /* Resources */,
+				3CE8FE547FDB35E235B90FFD /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QZShortVideo;
+			productName = QZShortVideo;
+			productReference = 4A741C8C22C21B3D00AED5A0 /* LZYShortVideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4A741CA322C21B3E00AED5A0 /* QZShortVideoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A741CBB22C21B3E00AED5A0 /* Build configuration list for PBXNativeTarget "QZShortVideoTests" */;
+			buildPhases = (
+				FC8079DEA3E990ACE852ED7D /* [CP] Check Pods Manifest.lock */,
+				4A741CA022C21B3E00AED5A0 /* Sources */,
+				4A741CA122C21B3E00AED5A0 /* Frameworks */,
+				4A741CA222C21B3E00AED5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A741CA622C21B3E00AED5A0 /* PBXTargetDependency */,
+			);
+			name = QZShortVideoTests;
+			productName = QZShortVideoTests;
+			productReference = 4A741CA422C21B3E00AED5A0 /* QZShortVideoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4A741CAE22C21B3E00AED5A0 /* QZShortVideoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A741CBE22C21B3E00AED5A0 /* Build configuration list for PBXNativeTarget "QZShortVideoUITests" */;
+			buildPhases = (
+				1236CAB80EFECFA046C862E1 /* [CP] Check Pods Manifest.lock */,
+				4A741CAB22C21B3E00AED5A0 /* Sources */,
+				4A741CAC22C21B3E00AED5A0 /* Frameworks */,
+				4A741CAD22C21B3E00AED5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4A741CB122C21B3E00AED5A0 /* PBXTargetDependency */,
+			);
+			name = QZShortVideoUITests;
+			productName = QZShortVideoUITests;
+			productReference = 4A741CAF22C21B3E00AED5A0 /* QZShortVideoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4A741CE222C5A3CA00AED5A0 /* Images */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A741CE622C5A3CA00AED5A0 /* Build configuration list for PBXNativeTarget "Images" */;
+			buildPhases = (
+				4A741CDF22C5A3CA00AED5A0 /* Sources */,
+				4A741CE022C5A3CA00AED5A0 /* Frameworks */,
+				4A741CE122C5A3CA00AED5A0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Images;
+			productName = Images;
+			productReference = 4A741CE322C5A3CA00AED5A0 /* Images.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4A741C8422C21B3D00AED5A0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				DefaultBuildSystemTypeForWorkspace = Original;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = lzy;
+				TargetAttributes = {
+					4A741C8B22C21B3D00AED5A0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					4A741CA322C21B3E00AED5A0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4A741C8B22C21B3D00AED5A0;
+					};
+					4A741CAE22C21B3E00AED5A0 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = 4A741C8B22C21B3D00AED5A0;
+					};
+					4A741CE222C5A3CA00AED5A0 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4A741C8722C21B3D00AED5A0 /* Build configuration list for PBXProject "QZShortVideo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4A741C8322C21B3D00AED5A0;
+			productRefGroup = 4A741C8D22C21B3D00AED5A0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4A741C8B22C21B3D00AED5A0 /* QZShortVideo */,
+				4A741CA322C21B3E00AED5A0 /* QZShortVideoTests */,
+				4A741CAE22C21B3E00AED5A0 /* QZShortVideoUITests */,
+				4A741CE222C5A3CA00AED5A0 /* Images */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4A741C8A22C21B3D00AED5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A741C9C22C21B3E00AED5A0 /* LaunchScreen.storyboard in Resources */,
+				4A741CFC22C5A66800AED5A0 /* Images.bundle in Resources */,
+				4A741C9922C21B3E00AED5A0 /* Assets.xcassets in Resources */,
+				4A741C9722C21B3D00AED5A0 /* Main.storyboard in Resources */,
+				4A741CDE22C5A31100AED5A0 /* Resource.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CA222C21B3E00AED5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CAD22C21B3E00AED5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CE122C5A3CA00AED5A0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1236CAB80EFECFA046C862E1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QZShortVideoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CE8FE547FDB35E235B90FFD /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-QZShortVideo/Pods-QZShortVideo-resources.sh",
+				"${PODS_ROOT}/TZImagePickerController/TZImagePickerController/TZImagePickerController/TZImagePickerController.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/TZImagePickerController.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-QZShortVideo/Pods-QZShortVideo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FC8079DEA3E990ACE852ED7D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QZShortVideoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FEDCBB52D4607DFCD6182E3E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QZShortVideo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A741C8822C21B3D00AED5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A741CD922C21B4C00AED5A0 /* RCMediaToolbar.m in Sources */,
+				4A741CD222C21B4C00AED5A0 /* RCSimpleHUD.m in Sources */,
+				4A741CD722C21B4C00AED5A0 /* RCMediaPreview.m in Sources */,
+				4A446683234DD02E00EF31DF /* SDAVAssetExportSession.m in Sources */,
+				4A741CD822C21B4C00AED5A0 /* RCMediaViewController.m in Sources */,
+				4A446686234ECA9D00EF31DF /* OriginalViewController.m in Sources */,
+				4A741CD322C21B4C00AED5A0 /* RCMediaFocusView.m in Sources */,
+				4A741CDC22C3544500AED5A0 /* TZCameraViewController.m in Sources */,
+				4A741C9422C21B3D00AED5A0 /* ViewController.m in Sources */,
+				4A741CD622C21B4C00AED5A0 /* RCMediaConstant.m in Sources */,
+				4A741CD522C21B4C00AED5A0 /* RCMediaViewController+Handle.m in Sources */,
+				4A741C9F22C21B3E00AED5A0 /* main.m in Sources */,
+				4A741C9122C21B3D00AED5A0 /* AppDelegate.m in Sources */,
+				4A741CD422C21B4C00AED5A0 /* RCMediaCaptureView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CA022C21B3E00AED5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A741CA922C21B3E00AED5A0 /* QZShortVideoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CAB22C21B3E00AED5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A741CB422C21B3E00AED5A0 /* QZShortVideoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A741CDF22C5A3CA00AED5A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4A741CA622C21B3E00AED5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A741C8B22C21B3D00AED5A0 /* QZShortVideo */;
+			targetProxy = 4A741CA522C21B3E00AED5A0 /* PBXContainerItemProxy */;
+		};
+		4A741CB122C21B3E00AED5A0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A741C8B22C21B3D00AED5A0 /* QZShortVideo */;
+			targetProxy = 4A741CB022C21B3E00AED5A0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4A741C9522C21B3D00AED5A0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A741C9622C21B3D00AED5A0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4A741C9A22C21B3E00AED5A0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A741C9B22C21B3E00AED5A0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4A741CB622C21B3E00AED5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4A741CB722C21B3E00AED5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4A741CB922C21B3E00AED5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 438DD21A2B58C16D3FC92D78 /* Pods-QZShortVideo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DYL533N39;
+				INFOPLIST_FILE = QZShortVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.LZYShortVideo;
+				PRODUCT_NAME = LZYShortVideo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A741CBA22C21B3E00AED5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41B35D9FD71A0A8F31A3446E /* Pods-QZShortVideo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5DYL533N39;
+				INFOPLIST_FILE = QZShortVideo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.LZYShortVideo;
+				PRODUCT_NAME = LZYShortVideo;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4A741CBC22C21B3E00AED5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1FC6580965487C989FD6B797 /* Pods-QZShortVideoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QZShortVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.QZShortVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZShortVideo.app/QZShortVideo";
+			};
+			name = Debug;
+		};
+		4A741CBD22C21B3E00AED5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 88FBF11434A6CF0E74B3CC8E /* Pods-QZShortVideoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QZShortVideoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.QZShortVideoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QZShortVideo.app/QZShortVideo";
+			};
+			name = Release;
+		};
+		4A741CBF22C21B3E00AED5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37B291C7E73E7EE5A8F01561 /* Pods-QZShortVideoUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QZShortVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.QZShortVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QZShortVideo;
+			};
+			name = Debug;
+		};
+		4A741CC022C21B3E00AED5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92C4A4FFDB431989290C1042 /* Pods-QZShortVideoUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = QZShortVideoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.QZShortVideoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QZShortVideo;
+			};
+			name = Release;
+		};
+		4A741CE722C5A3CA00AED5A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = Images/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.Images;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4A741CE822C5A3CA00AED5A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				INFOPLIST_FILE = Images/Info.plist;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = lzy.Images;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = NO;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4A741C8722C21B3D00AED5A0 /* Build configuration list for PBXProject "QZShortVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A741CB622C21B3E00AED5A0 /* Debug */,
+				4A741CB722C21B3E00AED5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A741CB822C21B3E00AED5A0 /* Build configuration list for PBXNativeTarget "QZShortVideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A741CB922C21B3E00AED5A0 /* Debug */,
+				4A741CBA22C21B3E00AED5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A741CBB22C21B3E00AED5A0 /* Build configuration list for PBXNativeTarget "QZShortVideoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A741CBC22C21B3E00AED5A0 /* Debug */,
+				4A741CBD22C21B3E00AED5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A741CBE22C21B3E00AED5A0 /* Build configuration list for PBXNativeTarget "QZShortVideoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A741CBF22C21B3E00AED5A0 /* Debug */,
+				4A741CC022C21B3E00AED5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A741CE622C5A3CA00AED5A0 /* Build configuration list for PBXNativeTarget "Images" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A741CE722C5A3CA00AED5A0 /* Debug */,
+				4A741CE822C5A3CA00AED5A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4A741C8422C21B3D00AED5A0 /* Project object */;
+}

@@ -1,0 +1,12 @@
+*.xcuserstate
+xcuserdata
+UserInterfaceState.xcuserstate
+xcuserdata/
+UserInterface.xcuserstate
+*.xcbkptlist
+xcschememanagement.plist
+*/xcschememanagement.plist
+
+#CocoaPods
+Pods/
+*.lock
